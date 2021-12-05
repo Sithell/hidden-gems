@@ -1,0 +1,19 @@
+[SPOTIFY]
+client_id =
+client_secret =
+redirect_uri =
+
+[FILTER]
+min_followers = 5
+max_followers = 1500
+min_popularity = 30
+max_popularity = 100
+genres_wanted = glitch,synth-pop,indie,electronic,hop,acoustic
+
+[PLAYLIST]
+name = Gems: {genre}
+public = yes
+max_artists_per_genre = 15
+tracks_per_artist = 2
+
+[PLAYLIST_IDS]
